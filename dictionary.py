@@ -1,0 +1,15 @@
+print("Dictionary:")
+x = { "number": 1, "name": "blue", "age": 200 }
+print(x)
+print("\n")
+print("Dictionary 'Add':")
+x["year"] = 2019
+print(x)
+print("\n")
+print("Dictionary 'Remove' specific key-value pair:")
+x.pop("age")
+print(x)
+print("\n")
+print("Dictionary 'Remove' last inserted key-value pair:")
+x.popitem()
+print(x)
