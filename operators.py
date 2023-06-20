@@ -8,3 +8,13 @@
 # 5.Identity operators
 # 6.Membership operators
 # 7.Bitwise operators
+
+x: int
+y: int
+
+x = 5
+y = 6
+
+z = x + y
+
+print(z)
